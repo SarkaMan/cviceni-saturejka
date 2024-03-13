@@ -3,12 +3,73 @@
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
+  background-color: lavenderblush;
+  margin:0;
+  text-align: center;
 }
 
 h1,
 h2 {
   font-family: 'Playfair Display', serif;
 }
-img{
-  width: 150px;
+
+div{
+  background-color:white;
+  margin: 150px;
+  padding:70px; 
+  overflow: auto;
+  text-align: justify;
+}
+footer{
+  padding:20px 0px;
+}
+.home{
+  padding:20px;
+  width: 250px;
+}
+.pismo{
+  font-size: 20px;
+}
+header{
+  padding-top: 20px;
+}
+.foto-losos{
+  float: left;
+  margin-right: 120px;
+  margin-bottom: 30px;
+  width: 350px;
+}
+.losos{
+  padding: 50px 15%;
+  overflow: auto;
+}
+.foto-kureci{
+  float:right;
+  margin-left: 120px;
+  margin-bottom: 30px;
+  width: 350px;
+}
+.kureci{
+  padding: 50px 15%;
+  overflow: auto;
+}
+
+.foto-melancholie{
+  width: 350px;
+  float: left;
+  margin-right:120px;
+  margin-bottom:30px;  
+    
+}
+.melancholie{
+  padding: 50px 15%;
+  overflow: auto;
+}
+
+button{
+background-color:lavenderblush;
+border-style: none;
+font-family: 'Open Sans', sans-serif;
+padding:15px;
+margin-top:20px;
 }
